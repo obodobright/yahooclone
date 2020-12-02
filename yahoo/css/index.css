@@ -1,0 +1,125 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                font-size: 1rem;
+                font-weight: 400
+            }
+            
+            .main {
+                text-align: center;
+                padding: 2em;
+                margin-bottom: 0;
+            }
+            
+            .main h3 a,
+            .main h3 a:hover {
+                color: #2f1050;
+                font-family: arial black;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            
+            .main h3 span {
+                font-style: italic
+            }
+            
+            .container-flex {
+                display: flex;
+            }
+            
+            img {
+                border-radius: 1em;
+                margin-right: 1em
+            }
+            
+            p.card-title {
+                font-weight: bold;
+                font-size: 1.2rem
+            }
+            
+            p span {
+                font-weight: normal;
+                font-size: 1.1rem
+            }
+            
+            .card1 {
+                margin-bottom: 15em;
+                padding: 1em;
+                padding-bottom: 0em;
+                border: 3px solid lightblue;
+            }
+            
+            .section-section {
+                flex: 70%;
+                position: relative;
+                left: 15%;
+                bottom: 20%;
+                margin-top: 6em
+            }
+            
+            .lead a:hover {
+                color: black;
+                text-decoration: none;
+            }
+            
+            .mobile-display {
+                border: 3px solid gray;
+                MARGIN: 3EM;
+                width: 30%
+            }
+            
+            nav {
+                padding: 2em 3em;
+                display: flex
+            }
+            
+            nav a,
+            nav a:hover {
+                color: #2f1050;
+                font-family: arial black;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            
+            nav a span {
+                font-style: italic
+            }
+            
+            nav::after {
+                content: "";
+                display: block;
+                clear: both
+            }
+            
+            nav h3 {
+                flex: 70%
+            }
+            
+            .mobile-section-section-flex {
+                display: flex
+            }
+            
+            .section-section::after {
+                content: "";
+                display: block;
+                clear: both
+            }
+            
+            @media(max-width:786px) {
+                nav {
+                    display: none
+                }
+                .section-section {
+                    display: none
+                }
+                .mobile-display {
+                    width: 100%;
+                    border: none;
+                    margin-top: 0
+                }
+            }
